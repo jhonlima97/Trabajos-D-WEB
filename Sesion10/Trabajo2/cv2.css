@@ -1,0 +1,27 @@
+
+
+#caja1{
+    background-color:blue ;
+    color: yellow;
+    height: 300px;
+    width: 1270px;
+    position: relative;
+        
+}
+
+#enlaces{
+    text-align: right;
+    margin-top: -20px;
+    background: black;
+      
+}
+thead{
+color: red;
+}
+
+#caja2{
+    text-align: center;
+    background: black;
+    color: white;
+    size: 10px;
+}
