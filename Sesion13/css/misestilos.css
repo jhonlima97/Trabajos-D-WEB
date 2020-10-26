@@ -1,16 +1,5 @@
 
-/**Primer ejemplo
-body{color:blue;color:black;}-->
-<!-- h1{font-family: verdana;}-->
-p{color:red;}
-*/
-
-/**Segundo ejemplo
-div{
-    font-size: 12px;
-    color: #81a61a;
-}
-h1{
+/*h1{
     font-size: 12px;
     color:#81a61a;
 }
@@ -18,7 +7,7 @@ h2{
     font-size: 12px;
     color: #81a61a;
 }
-div,h1,h2{
+/**div,h1,h2{
     font-size: 12px;
     color: #81a61a;
 }*/
@@ -31,16 +20,6 @@ div h2{
 div p a{
     color: green;
 }*/
-
-
-/**div p{color:blue;}
-div, p{color:green;}
-a {font-size: 20px;}
-a.link {font-size: 30px;}
-div div.capa1, div p.texto{
-    color:red;
-}*/
-
 
 /**a[href^="mailto:"]{
     font-family: verdana;
