@@ -33,9 +33,17 @@ body{
 #enlaces{
     text-align: right;
     margin-top: -40px;
-    background: black;
-      
+    background: black; 
 }
+.table,td,th{
+    border: 2px solid black; 
+ 
+      
+
+ .subtitulos{
+     color: red;
+ }
+
 #encabezados1,th{
 color: red;
 left: 100px;
