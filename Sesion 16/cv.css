@@ -39,6 +39,10 @@
     height: 170px;
     max-width: 180%;
 }
+.table,td,th{
+    border: 1px solid brown; 
+} 
+
 .subtitulos{
     color: blue;
     font-style: italic;
