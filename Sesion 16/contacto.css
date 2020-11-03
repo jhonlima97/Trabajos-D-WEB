@@ -4,14 +4,15 @@
 }
 .login{
     float: right;
-    margin-top: -170px;
+    margin-top: -150px;
     margin-right: 10px;
+    color: black;
 }
 #menus{
     background: rgb(131, 224, 224);
-    margin-top: -9px;
+    margin-top: auto;
     float: right;
-    height: 392.2px;
+    height: 393px;
     display: flex;
     justify-content: space-around; 
     padding-right: 100px;

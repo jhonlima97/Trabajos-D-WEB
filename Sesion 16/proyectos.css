@@ -2,14 +2,23 @@
     grid-area: header;
     margin-right: 50px;
 }
+.foto{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 3px;
+    width:115px;
+    height:120px;
+}
 .login{
     float: right;
-    margin-top: -170px;
+    margin-top: -150px;
     margin-right: 10px;
+    color: black;
 }
 #menus{
     background: rgb(131, 224, 224);
-    margin-top: -9px;
+    margin-top: auto;
     float: right;
     height: 450px;
     display: flex;
