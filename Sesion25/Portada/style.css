@@ -4,11 +4,15 @@ html, body{
 
 #cover {
     background: #222 url(../img/fotopor.jpg) center no-repeat;
-    color: rgb(11, 9, 14);
+    color:black;
     height: 100%;
     text-align: center;
     display: inline-flexbox;
     align-items: center;
+    
+}
+.modal-body{
+    font-size: 20px;
     
 }
 
@@ -22,13 +26,14 @@ html, body{
     font-family: bold;
     font-size: 30px;
 }
-/* #slide1,#slide2,#slide3{
-    color: rgb(11, 9, 14);
-    height: 100%;
-    text-align: center;
-    display: flow-root;
-    align-items: center;
-} */
+#imagen{
+    width: 50px;
+    height: 20px;
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
 
 #display-3 {
     color: black;
