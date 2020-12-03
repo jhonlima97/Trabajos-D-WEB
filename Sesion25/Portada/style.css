@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+}
+
+#cover {
+    background: #222 url(../img/fotopor.jpg) center no-repeat;
+    color: rgb(11, 9, 14);
+    height: 100%;
+    text-align: center;
+    display: inline-flexbox;
+    align-items: center;
+    
+}
+
+#cover-texto {
+    width: 100%;
+    font-family: bold;
+    padding-top: 250px;
+}
+#cover-texto2 {
+    width: 100%;
+    font-family: bold;
+    font-size: 30px;
+}
+/* #slide1,#slide2,#slide3{
+    color: rgb(11, 9, 14);
+    height: 100%;
+    text-align: center;
+    display: flow-root;
+    align-items: center;
+} */
+
+#display-3 {
+    color: black;
+}
