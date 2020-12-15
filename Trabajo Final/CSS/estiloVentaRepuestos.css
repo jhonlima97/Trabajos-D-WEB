@@ -1,0 +1,26 @@
+section{
+    background-color: rgb(176, 233, 188);
+    padding: 1rem 1rem;
+}
+
+#diseñoCat{
+    background-color: white;
+    margin-left: 2%;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+
+}
+
+#tituloTamaño{
+    color: rgb(40, 153, 74);
+    font-size: xx-large;
+}
+
+#btnEstiloC{
+    background-color: rgb(98, 219, 94);
+    border: none;
+}
+
+#btnEstiloC:hover{
+    background-color: chocolate;
+}

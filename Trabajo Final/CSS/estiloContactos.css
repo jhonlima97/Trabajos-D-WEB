@@ -1,0 +1,49 @@
+.btnEnviar{
+    border-radius: 5px;
+    width: 20% ;
+    margin-left: 270px;
+    background-color: #34b934;
+}
+
+.cuadroContactanos{
+    background-color: rgb(35, 182, 145);
+    height: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: 780px;
+}
+.caja1{
+    /* background-color: rgb(35, 182, 145); */
+    border: rgb(20, 94, 53) 2px solid;
+    height: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 820px;
+    margin-top: -570px;
+    height: 522px;
+    text-align: justify;
+}
+.linea{
+    width: 780px;
+    margin-left: 0px;
+}
+.contacto{
+    margin-left: 250px;
+    color: rgb(14, 155, 77);
+}
+section{
+    padding: 1rem 3rem;
+}
+#columna1{
+    margin-left: -15px;
+    
+}
+#columna2{
+    margin-left: 250px;
+    margin-top: -190px;
+}
+#columna3{
+    margin-left: 500px;
+    margin-top: -188px;
+}

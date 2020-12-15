@@ -1,0 +1,32 @@
+.general{
+/* border: black 2px solid; */
+/* background-color: rgb(35, 182, 145); */
+height: 100%;
+text-align: justify;
+border-radius: 5px;
+width: 800px;
+margin: 10px;
+}
+
+.caja1, .caja2, .caja3{
+    border: blue 2px solid;
+    margin: 10px;
+}
+
+.imagenDev{
+    /* background-color: rgb(35, 182, 145); */
+    border: rgb(4, 15, 9) 2px solid;
+    height: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 850px;
+    margin-top: -570px;
+    height: 525px;
+    text-align: justify;
+}
+#iconos{
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+}
