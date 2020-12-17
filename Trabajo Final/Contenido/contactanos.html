@@ -57,64 +57,86 @@
     </div>
   </nav>
 <!-- ------------------------------ contenido ------------------------------ -->
+<br><br>
 <section>
-    <!-- ------------------------------ Tabla Contactos ------------------------------ -->
-    <h2 class="contacto">C O N T Á C T A N O S</h2>
-    <hr style="border: black 2px solid;" class="linea">
     <div class="row">
-        <div class="col-sm-9">
-            <div class="cuadroContactanos">
-                <form>
-                    <div class="row">
-                      <div class="col">
-                        <div class="col-sm-4" id="columna1">
-                        <label for="inputEmail4">Nombres: </label>
-                        <input type="text" class="form-control" placeholder="Ingrese Nombres"><br>
-                        <label for="inputEmail4">Documento De Identidad: </label>
+        <div class="col-sm-8">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">contactanos</h5> <hr>
+              
+              <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationCustom01">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese nombre">
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationCustom02">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese Apellido paterno">
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationCustomUsername">Apellido Materno</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                      </div>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese apellido materno" >
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustom01">Documento de identidad</label>
                         <select id="inputState" class="form-control">
                             <option>DNI</option>
                             <option>Carnet Extranjeria</option>
-                        </select> <br>
-                        </div>
-                        
-                        <div class="col-sm-4" id="columna2">
-                            <label for="inputEmail4">Apellido Paterno: </label>
-                            <input type="text" class="form-control" placeholder="Ingrese Apellido Paterno"><br>
-                            <label for="inputEmail4">Número De Documento: </label>
-                        <input type="text" class="form-control" placeholder="Ingrese Numero de Documento"> <br>
-                        </div>
-                        
-                        <div class="col-sm-4" id="columna3">
-                            <label for="inputEmail4">Apellido Materno: </label>
-                            <input type="text" class="form-control" placeholder="Ingrese Apellido Materno"><br>
-                            <label for="inputEmail4">Correo: </label>
-                            <input type="text" class="form-control" placeholder="Ingrese Correo"> <br>
-                        </div>
-                       
-                        <label for="inputEmail4">Comentario: </label>
-                        <input type="text" class="form-control" style="width: 748px; height: 150px;" > <br>
-                        
-                        <div class="boton">
-                            <input type="checkbox" name="check" value="1"> <b>Acepto las polìticas de datos personales.</b> 
-                            <button type="button" class="btnEnviar" style="top: -80px;" ><b>E N V I A R</b></button>
-                       </div> 
-                      </div>
-                      
+                        </select>
                     </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustom02">Número de DI</label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese número de DI">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="validationCustomUsername">Correo</label>
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Ingrese correo" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <label for="validationTextarea">Comentario:</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Ingrese comentario" required></textarea>
+                    <br>
+                    <input type="checkbox" name="check" value="1"> <b>Acepto las polìticas de datos personales.</b> 
+                    <button type="submit" class="btn btn-primary">Enviar</button><br>
                 </form>
             </div>
+          </div>
         </div>
-    </div> <br> <br>
-    <div class="caja1">
-        <img src="/Trabajo Final/IMG/call_center.jpg" alt="" width="365px" height="345px"> <br><br>
-        
-        <P>Recuerda que también puedes enviarnos
-            un correo a <b>servcomputer@gmail.com</b> o
-            llamarnos a nuestro Centro de Servicio al
-            Cliente <b>(01) 619-4810.</b> Nuestros asesores
-            atenderán con gusto tus dudas.
-        </P>
-    </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img src="../IMG/call_center.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <P>Recuerda que también puedes enviarnos
+                    un correo: <b>servcomputer@gmail.com</b> o
+                    llamarnos a <b>(01) 619-4810.</b> Nuestros asesores
+                    atenderán con gusto.
+                    </P>
+                </div>
+            </div>
+        </div>
+      </div>
 </section><br>
 <!-- ------------------------------ pie de página ------------------------------ -->
 <div style="height: 1.5rem; background-color: rgb(49, 228, 117);"></div>
@@ -141,7 +163,7 @@
             </div>
 
             <div class="col-sm-4">
-                <b style="color: rgb(6, 77, 6);">Redes Sociales:</b>
+                <b style="color: rgb(6, 77, 6);">Enlaces de Intères:</b>
                 <li><a href="https://www.youtube.com/watch?v=At8z2jlL0t4&feature=youtu.be" style="color: rgb(0, 0, 0);">Video explicativo</a></li>
                 <li><a href="https://www.youtube.com/watch?v=CM0H0Qg2Qak&feature=youtu.be" style="color: rgb(0, 0, 0);">Problemas de PC</a></li>
                 <li><a href="https://www.youtube.com/watch?v=hzImL-5ALSE&feature=youtu.be" style="color: rgb(0, 0, 0);">Pieza de una PC</a></li>
@@ -182,17 +204,6 @@
       </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="../JS/jquery-3.5.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>    

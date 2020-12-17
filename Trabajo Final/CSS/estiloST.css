@@ -1,9 +1,9 @@
 .btnG{
     border-radius: 5px;
-    width: 110%;
-    margin-top: 1rem;
+    margin-top: 1em;
     border: none;
-    padding: 1rem 1rem;
+    width: 100%;
+    padding: 1rem 0.5rem;
 }
 
 .cuadroST{
@@ -39,4 +39,13 @@ section{
 
 #b3:hover{
     background-color: tomato;
+}
+
+.btnAdquirir{
+    width: 100%; 
+    margin-left: -300px; 
+    background-color: rgb(141, 228, 184);
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
 }

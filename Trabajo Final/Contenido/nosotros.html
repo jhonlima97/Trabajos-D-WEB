@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/estiloIndex.css">
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/swiper.min.css.css">
-    <link rel="stylesheet" href="..//CSS/estiloNosotros.css">
+    <link rel="stylesheet" href="../CSS/estiloNosotros.css">
 </head>
 
 <body>
@@ -58,50 +58,82 @@
   </nav>
 <!-- ------------------------------ contenido ------------------------------ -->
 <section>
-    <div class="general"><br>
-        <div class="caja1">
-            <h2 class="contacto">HISTORIA</h2>
-            <P>Empresa que viene trabajando desde varios años, 
-                cuyo objetivo empezó cuando se tuvo la necesidad de
-                comprar una pieza de computadora y por más 
-                que buscaba no encontraba en internet, por lo que llevo a
-                crear una página donde sea fácil adquirir repuestos.
-            </P>
-        </div><br>
-    
-        <div class="caja2">
-            <h2 class="contacto">RUBRO</h2>
-            <P>Somos una empresa de Servicio Dedicada a 
-                Satisfacer las Necesidades de Soporte Tecnico y
-                Mantenimiento que un Cliente Requiera,
-                 elevando asi el rendimiento en sus equipos de computo de
-                una manera rapida y comoda, atraves del 
-                diagnostico y supervision de nuestro personal; quienes
-                tienen amplia experiencia en este rubro.
-            </P>
-        </div><br>
-    
-        <div class="caja3">
-            <h2 class="contacto">SEDE PRINCIPAL</h2>
-            <P>Empresa de Servicio Dedicada a Satisfacer las Necesidades
-                de Soporte Tecnico y Mantenimiento de
-                equiposd ecomputo con sede principal 
-                en Chiclayo departamento Lambayeque, 
-                ademas cuenta con sucursales en Lima y Trujillo.
-            </P>
-        </div><br>
-    </div>
-    <div class="imagenDev">
-        <h2 class="contacto" style="margin-left: 25px;"><b>DESARROLLADORES</b> </h2>
-        <img src="/Trabajo Final/IMG/desarrollador.jpg" alt="" width="360px" height="260px"> <br>
-       <br>
-        <img src="/Trabajo Final/IMG/iconouser.png" alt="" id="iconos"><b>Luis Antonio Ugaz Leonardo</b><br>
-        <img src="/Trabajo Final/IMG/iconouser.png" alt="" id="iconos"><b>Jhon Wayler Lima Camizan</b><br>
-        <img src="/Trabajo Final/IMG/iconouser.png" alt="" id="iconos"><b>Jeremy Fabian Muñoz Rodrigo</b><br>
-        <img src="/Trabajo Final/IMG/iconouser.png" alt="" id="iconos"><b>Alberto Casas Gabriel</b><br>
-
-    </div>
-</section><br>
+    <div class="row">
+        <div class="col-sm-9">
+          <div class="card">
+            <div class="card-body">
+                <div class="caja1">
+                    <h2 class="contacto">HISTORIA</h2>
+                    <P class="tamañoP">Empresa que viene trabajando desde varios años, 
+                        cuyo objetivo empezó cuando se tuvo la necesidad de
+                        comprar una pieza de computadora y por más 
+                        que buscaba no encontraba en internet, por lo que llevo a
+                        crear una página donde sea fácil adquirir repuestos.
+                    </P>
+                </div><br>
+            
+                <div class="caja2">
+                    <h2 class="contacto">RUBRO</h2>
+                    <P class="tamañoP">Somos una empresa de Servicio Dedicada a 
+                        Satisfacer las Necesidades de Soporte Tecnico y
+                        Mantenimiento que un Cliente Requiera,
+                         elevando asi el rendimiento en sus equipos de computo de
+                        una manera rapida y comoda, atraves del 
+                        diagnostico y supervision de nuestro personal; quienes
+                        tienen amplia experiencia en este rubro.
+                    </P>
+                </div><br>
+            
+                <div class="caja3">
+                    <h2 class="contacto">SEDE PRINCIPAL</h2>
+                    <P class="tamañoP">Empresa de Servicio Dedicada a Satisfacer las Necesidades
+                        de Soporte Tecnico y Mantenimiento de
+                        equiposd ecomputo con sede principal 
+                        en Chiclayo departamento Lambayeque, 
+                        ademas cuenta con sucursales en Lima y Trujillo.
+                    </P>
+                </div><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+                <div class="card">
+                    <br>
+                    <img src="../IMG/desarrollador.jpg" class="card-img-top" alt="...">
+                    <div class="contacto2">Desarrolladores:</div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="media">
+                              <img src="../IMG/Ugaz_Leonardo.jpg" class="mr-3" alt="..." width="60" height="60">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Luis Antonio Ugaz Leonardo</h5>
+                               </div>
+                            </li><br>
+                            <li class="media">
+                              <img src="../IMG/Jhon_Lima.jpeg" class="mr-3" alt="..." width="60" height="60">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Jhon Wayler Lima Camizan</h5>
+                              </div>
+                            </li><br>
+                            <li class="media">
+                              <img src="../IMG/Muños_Rodrigo.jpeg" class="mr-3" alt="..." width="60" height="60">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Jeremy Fabian Muñoz Rodrigo</h5>
+                               </div>
+                            </li><br>
+                            <li class="media">
+                                <img src="../IMG/Alberto_Casas.jpeg" class="mr-3" alt="..." width="60" height="60"><br>
+                                <div class="media-body">
+                                  <h5 class="mt-0 mb-1">Alberto Casas Gabriel</h5>
+                                 </div>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+        </div>
+    </div> 
+</section>
+<br>
 <!-- ------------------------------ pie de página ------------------------------ -->
 <div style="height: 1.5rem; background-color: rgb(49, 228, 117);"></div>
 <footer>
@@ -127,7 +159,7 @@
             </div>
 
             <div class="col-sm-4">
-                <b style="color: rgb(6, 77, 6);">Redes Sociales:</b>
+                <b style="color: rgb(6, 77, 6);">Enlaces de Intères:</b>
                 <li><a href="https://www.youtube.com/watch?v=At8z2jlL0t4&feature=youtu.be" style="color: rgb(0, 0, 0);">Video explicativo</a></li>
                 <li><a href="https://www.youtube.com/watch?v=CM0H0Qg2Qak&feature=youtu.be" style="color: rgb(0, 0, 0);">Problemas de PC</a></li>
                 <li><a href="https://www.youtube.com/watch?v=hzImL-5ALSE&feature=youtu.be" style="color: rgb(0, 0, 0);">Pieza de una PC</a></li>
