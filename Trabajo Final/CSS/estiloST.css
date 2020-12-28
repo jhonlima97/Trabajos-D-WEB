@@ -43,7 +43,7 @@ section{
 
 .btnAdquirir{
     width: 100%; 
-    margin-left: -300px; 
+    margin-left: 0; 
     background-color: rgb(141, 228, 184);
     border: none;
     border-radius: 5px;

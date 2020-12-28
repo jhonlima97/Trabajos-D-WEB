@@ -83,7 +83,13 @@ header{
 #fondoPP{
     background-image: url(../IMG/piePg.png);
     border: none;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    margin-left: 0%;
 }
 
 .btnIS{
